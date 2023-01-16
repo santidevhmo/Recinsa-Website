@@ -92,7 +92,7 @@ h6 {
 #header .logo {
   font-size: 30px;
   margin: 0;
-  padding: 0;
+  padding-left: 10px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -114,7 +114,7 @@ h6 {
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
-  background: #e03a3c;
+  background: #E1393B;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -405,8 +405,8 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #8F0000;
-  border: 2px solid #8F0000;
+  background: #E1393B;
+  border: 2px solid #E1393B;
 }
 
 #hero .btn-get-started:hover {
