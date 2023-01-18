@@ -438,7 +438,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Sections General = Quienes somos: Mision y Vision
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -484,6 +484,34 @@ section {
 .section-bg:before {
   content: "";
   background: #1b1b1b;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+}
+
+/*--------------------------------------------------------------
+# Servicios Section
+--------------------------------------------------------------*/
+
+.section-bg-one {
+  padding: 60px 0;
+  color: #1b1b1b;
+}
+
+#sectionOneTitle {
+  color: #1b1b1b;
+}
+
+.section-bg-one p {
+  color: #fff
+}
+
+.section-bg-one:before {
+  content: "";
+  /* background: #1b1b1b; */
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -761,8 +789,10 @@ section {
 }
 
 .tabs .tab-pane h3 {
+  padding-top:30px;
   font-weight: 600;
   font-size: 26px;
+  text-align: center;
 }
 
 .tabs .tab-pane ul {
@@ -782,6 +812,58 @@ section {
 
 .tabs .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+.img-fluid {
+  padding-top: 30px;
+}
+
+/*--------------------------------------------------------------
+# Quienes somos
+--------------------------------------------------------------*/
+.quienesSomos .icon-box {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  /* background: #252525; */
+  transition: 0.3s;
+}
+
+.quienesSomos .icon-box:hover {
+  background: #2b2b2b;
+}
+
+.quienesSomos .icon-box i {
+  float: left;
+  color: #e03a3c;
+  font-size: 40px;
+  line-height: 0;
+}
+
+.quienesSomos .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.quienesSomos .icon-box h4 a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.quienesSomos .icon-box h4 a:hover {
+  text-decoration: underline;
+}
+
+.quienesSomos .icon-box .icon-box:hover h4 a {
+  color: #e03a3c;
+}
+
+.quienesSomos .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -2136,3 +2218,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
