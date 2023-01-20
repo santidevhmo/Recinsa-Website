@@ -745,9 +745,11 @@ section {
   cursor: pointer;
 }
 
-.tabs .nav-link i {
+.tabs .nav-link img {
+  height: 50px;
+  width: 50px;
   padding-right: 15px;
-  font-size: 48px;
+  display: block;
 }
 
 .tabs .nav-link h4 {
@@ -760,28 +762,39 @@ section {
   color: #e03a3c;
 }
 
+.tabs .nav-link:hover img {
+  /* Use "filter" to change the SVG color in <img> tag: https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(32%) sepia(74%) saturate(1983%) hue-rotate(335deg) brightness(89%) contrast(98%);
+}
+
+
 .tabs .nav-link.active {
   background: #e03a3c;
   color: #fff;
   border-color: #e03a3c;
 }
 
-@media (max-width: 768px) {
-  .tabs .nav-link i {
+.tabs .nav-link.active img {
+  /* Use "filter" to change the SVG color in <img> tag: https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(160deg) brightness(103%) contrast(103%);
+}
+
+/* @media (max-width: 768px) {
+  .tabs .nav-link img {
     padding: 0;
     line-height: 1;
     font-size: 36px;
   }
-}
+} */
 
 @media (max-width: 575px) {
   .tabs .nav-link {
     padding: 15px;
   }
 
-  .tabs .nav-link i {
+  /* .tabs .nav-link img {
     font-size: 24px;
-  }
+  } */
 }
 
 .tabs .tab-content {
@@ -823,13 +836,22 @@ section {
 # Icons
 --------------------------------------------------------------*/
 
-.contenedorIcon {
-  background-image: url('assets/icons/contenedor.svg');
-  height: 20px;
-  width: 20px;
-  /* display: block; */
-  /* Other styles here */
-}
+/* .contenedorIcon {
+  height: 50px;
+  width: 50px;
+  background-image: url("../icons/contenedor.svg");
+  padding-right: 15px;
+  display: block;
+  /* Other styles here 
+} */
+
+/* .contenedorIcon::before {
+  background: url('/assets/icons/contenedor.svg');
+  height: 50px;
+  width: 50px;
+  display: block;
+  /* Other styles here 
+} */
 
 
 /*--------------------------------------------------------------
