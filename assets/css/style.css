@@ -441,7 +441,7 @@ h6 {
 # Sections General = Quienes somos: Mision y Vision
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0px 40px 0px;
   overflow: hidden;
   position: relative;
 }
@@ -569,7 +569,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .clients .swiper-pagination {
@@ -684,6 +684,47 @@ section {
 .counts {
   padding-top: 40px;
 }
+
+/* ----- Replace fade-in-up animation from scroll to non-scroll fade-in-up animation ----- */
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+/* ----- */
 
 .counts .count-box {
   padding: 30px 30px 25px 30px;
