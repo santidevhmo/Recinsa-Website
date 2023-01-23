@@ -868,32 +868,28 @@ section {
   margin-bottom: 0;
 }
 
-.img-fluid {
+.img-fluid-catalogo {
   padding-top: 30px;
-  max-height: 200px;
+  max-height: 250px;
 }
 
+/* .img-fluid {
+  padding-top: 30px;
+  max-height: 800px;
+} */
+
 /*--------------------------------------------------------------
-# Icons
+# Compromiso Ambiental
 --------------------------------------------------------------*/
 
-/* .contenedorIcon {
-  height: 50px;
-  width: 50px;
-  background-image: url("../icons/contenedor.svg");
-  padding-right: 15px;
-  display: block;
-  /* Other styles here 
-} */
+#compromisoAmbiental {
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
 
-/* .contenedorIcon::before {
-  background: url('/assets/icons/contenedor.svg');
-  height: 50px;
-  width: 50px;
-  display: block;
-  /* Other styles here 
-} */
-
+#imgComprAmb {
+  padding-top: 60px;
+}
 
 /*--------------------------------------------------------------
 # Quienes somos
@@ -902,7 +898,6 @@ section {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  /* background: #252525; */
   transition: 0.3s;
 }
 
@@ -1258,94 +1253,6 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #e03a3c;
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #2b2b2b;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.pricing .box h4 {
-  font-size: 42px;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #e03a3c;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
-
-.pricing .box .btn-buy {
-  display: inline-block;
-  padding: 10px 40px 12px 40px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.pricing .box .btn-buy:hover {
-  border-color: #fff;
-}
-
-.pricing .featured {
-  background: #e03a3c;
 }
 
 /*--------------------------------------------------------------
