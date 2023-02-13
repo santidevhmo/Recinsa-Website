@@ -43,5 +43,4 @@
   
   echo $contact->send();
 
-  phpinfo();
 ?>
