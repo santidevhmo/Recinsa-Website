@@ -6,6 +6,9 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
+  error_reporting(E_ALL);
+  ini_set('display_errors', '1');
+
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'a01253681@tec.mx';
   // info@recinsa.com.mx
