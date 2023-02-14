@@ -6,6 +6,9 @@
  * Copyright: BootstrapMade.com
  */
 
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 if ( version_compare(phpversion(), '5.5.0', '<') ) {
   die('PHP version 5.5.0 and up is required. Your PHP version is ' . phpversion());
 }
